@@ -103,10 +103,50 @@ input:focus, textarea:focus {
         padding-left: 58.5px;
         padding-right: 58.5px;
     }
+    .contact-btn{
+        padding-left: 190px;
+        padding-right: 190px;
+    }
+    .box{
+        padding: 20px;
+    }
 
 }
 @media (min-width: 768px) and (max-width:991px) {
+    .navbar{
+        width: 100%;
+       justify-content: normal;
+       gap: 20px;
+       margin-left: 0px;
+       margin-right: 0px;
+    }
+    .nav-btn{
+        margin-left: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .nave-items a{
+        margin-right: 10px;
+    }
+    .low-card{
+        border: 1px solid #E7E7E7;
+    }
+    .faq-image{
+       margin-top: 200px;
+    }
+    .contact-container{
+        flex-direction: column;
+    }
+    .contact-form{
+        width: 65%;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    .contact-btn{
 
+        padding-left: 185px;
+        padding-right: 185px;
+    }
 }
 @media (min-width: 576px) and (max-width:767px) {
 
