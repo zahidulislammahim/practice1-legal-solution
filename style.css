@@ -9,7 +9,7 @@ h1,h2,h3,h4,h5,h6 {
 h2, h3{
     color: #414040;
 }
-main p, footer{
+.practice-areas p, footer p{
     color: #707070;
 }
 body{
@@ -30,8 +30,14 @@ h3 {
     background-color: #F3F3F3;
     background: linear-gradient(184deg,rgba(243, 243, 243, 1) 0%, rgba(0, 0, 0, 0) 100%);
 }
-
-
+.nave a:hover{
+    color: black
+}
+.review-card{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(images/banner.png);
+ color: white;
+ border-radius: 8px;
+}
 
 
 
