@@ -6,24 +6,27 @@
     <title>Legal Solutions</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images/business.png" type="image/x-icon">
   </head>
-  <body>
-    <header class="max-w-6xl mx-auto mt-5">
-      <div class="flex justify-between items-center p-4">
+  <body >
+    <header class="max-w-6xl mx-auto mt-5" id="home">
+     <div class="fixed top-0 left-0 w-full z-50 bg-white">
+       <div class="flex justify-between items-center p-4 max-w-6xl mx-auto pt-5">
         <div>
           <img src="images/logo2.png" alt="" />
         </div>
         <div class="nave space-x-8 text-[#707070]">
-          <a href="#">Home</a>
-          <a href="#">Services</a>
+          <a href="#home">Home</a>
+          <a href="#service">Services</a>
           <a href="#">Cases</a>
           <a href="#">Blog</a>
-          <a href="#">Contact Us</a>
+          <a href="#contact">Contact Us</a>
         </div>
         <div>
           <a href="#"class="btn bg-[#B68C5A] p-4 px-8 text-white rounded-lg font-semibold text-lg">Free Consultation</a>
         </div>
       </div>
+     </div>
       <div class="hero-container items-center text-center p-10 size-full mt-7 ">
         <div class="w-2xl mx-auto text-center pt-10 pb-20  " >
           <h1 class="text-7xl mt-8 mb-8">We Provide Effective Legal Solutions</h1>
@@ -38,7 +41,7 @@
       </div>
     </header>
     <main>
-        <section class="practice-areas max-w-6xl mx-auto mt-10 p-8">
+        <section class="practice-areas max-w-6xl mx-auto mt-10 p-8" id="service">
            <div class="w-2xl mx-auto text-center ">
                 <h2 class="text-4xl font-bold mb-6">The Legal Practice Area</h2>
                  <p class="p-text-color">
@@ -170,7 +173,7 @@
           </div>
         </section>
 
-        <section class="contact-section max-w-6xl mx-auto mt-25 ">
+        <section class="contact-section max-w-6xl mx-auto mt-25 " id="contact">
           <div class="w-2xl mx-auto text-center mb-10">
             <h2 class="text-4xl mb-5">Contact With Us</h2>
             <p class="p-text-color">There are many variations of passages of Lorem Ipsum available, but the majority have
@@ -226,7 +229,7 @@
             <li><a href="#">About Us</a></li>
             <li><a href="#">Cases</a></li>
             <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
           </ul>
         </div>
         <div>
