@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
 
-.fonts,h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h5,h6 {
   font-family: "EB Garamond", serif;
   font-optical-sizing: auto;
-  font-weight: 600;
+  font-weight: 900;
   font-style: normal;
 }
-
+h2, h3{
+    color: #414040;
+}
+main p, footer{
+    color: #707070;
+}
 body{
     font-family: poppins, sans-serif;
     margin: 0;
@@ -16,8 +21,15 @@ body{
  color: white;
  border-radius: 8px;
 }
-
-
+h3 {
+    font-size: 1.7rem;
+    font-weight: 900;
+    margin-top: 20px;
+}
+.low-card:hover{
+    background-color: #F3F3F3;
+    background: linear-gradient(184deg,rgba(243, 243, 243, 1) 0%, rgba(0, 0, 0, 0) 100%);
+}
 
 
 
